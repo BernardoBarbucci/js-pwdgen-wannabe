@@ -5,7 +5,7 @@
 
 let questionOne = prompt ("What's your name?");
 let questionTwo = prompt ("What's your surname?");
-let questionThree = prompt ("How old are you?");
+let questionThree = parseInt (prompt("How old are you?"));
 
 let infoUser =  questionOne + " " + questionTwo + " " + questionThree;
 
